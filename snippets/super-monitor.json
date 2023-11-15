@@ -1,0 +1,26 @@
+{
+  "action_view_model": {
+    "prefix": ["sm_action_view_model"],
+    "body": [
+      "public function $1Action(){",
+      "\t\\$request = \\$this->getRequest();",
+      "$2",
+      "\t\\$data = [];",
+      "\treturn new ViewModel(\\$data);",
+      "}"
+    ],
+    "description": "Supermonitor action return view model"
+  },
+  "action_view_json": {
+    "prefix": ["sm_action_json_model"],
+    "body": [
+      "public function $1Action(){",
+      "\t\\$request = \\$this->getRequest();",
+      "$2",
+      "\t\\$data = [];",
+      "\treturn new JsonModel(\\$data);",
+      "}"
+    ],
+    "description": "Supermonitor action return view json"
+  }
+}
