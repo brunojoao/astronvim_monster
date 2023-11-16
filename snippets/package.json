@@ -72,10 +72,6 @@
       },
       {
         "language": "php",
-        "path": "./laravel/mail.json"
-      },
-      {
-        "language": "php",
         "path": "./laravel/redirect.json"
       },
       {
@@ -89,14 +85,6 @@
       {
         "language": "php",
         "path": "./laravel/response.json"
-      },
-      {
-        "language": "php",
-        "path": "./laravel/route.json"
-      },
-      {
-        "language": "php",
-        "path": "./laravel/schema.json"
       },
       {
         "language": "php",
@@ -127,7 +115,10 @@
         "path": "./laravel/collective_form_html.json"
       },
       {
-        "language": "blade",
+        "language": [
+          "blade",
+          "php"
+        ],
         "path": "./blade/blade.json"
       },
       {
@@ -139,8 +130,8 @@
         "path": "./blade/livewire.json"
       },
       {
-        "language": "php",
-        "path": "./blade/blade.json"
+        "language": "blade",
+        "path": "./blade/snippets.json"
       }
     ]
   }
