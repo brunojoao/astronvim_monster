@@ -14,7 +14,8 @@
           "blade",
           "phtml",
           "edge",
-          "html"
+          "html",
+          "php"
         ],
         "path": "./bootstrap/bootstrap5.json"
       },
