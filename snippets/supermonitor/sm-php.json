@@ -22,5 +22,19 @@
       "}"
     ],
     "description": "Supermonitor action return view json"
+  },
+  "get_repository": {
+    "prefix": ["sm_get_repository"],
+    "body": [
+      "\\$${1:'name'}Repo = \\$this->getEm()->getRepository(SMEntity${2:'name'}::class);"
+    ],
+    "description": "Supermonitor getRepository"
+  },
+  "get_service": {
+    "prefix": ["sm_get_service"],
+    "body": [
+      "\\$${1:'name'}Service = \\$this->getServiceLocator()->get(SMService${2:'name'}::class);"
+    ],
+    "description": "Supermonitor getService"
   }
 }
