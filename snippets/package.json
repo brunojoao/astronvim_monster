@@ -112,7 +112,10 @@
         "path": "./laravel/broadcast.json"
       },
       {
-        "language": "blade",
+        "language": [
+          "blade",
+          "php"
+        ],
         "path": "./laravel/collective_form_html.json"
       },
       {
@@ -123,15 +126,24 @@
         "path": "./blade/blade.json"
       },
       {
-        "language": "blade",
+        "language": [
+          "blade",
+          "php"
+        ],
         "path": "./blade/helpers.json"
       },
       {
-        "language": "blade",
+        "language": [
+          "blade",
+          "php"
+        ],
         "path": "./blade/livewire.json"
       },
       {
-        "language": "blade",
+        "language": [
+          "blade",
+          "php"
+        ],
         "path": "./blade/snippets.json"
       }
     ]
