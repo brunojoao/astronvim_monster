@@ -13,6 +13,18 @@ return {
         ["<leader>Gf"] = {
             "<cmd>GitBlameOpenFileURL<cr>",
             desc = "Blame open file"
-        }
+        },
+        ["<A-j>"] = {'<cmd>:MoveLine(1)<cr>', desc = ""},
+        ["<A-k>"] = {'<cmd>:MoveLine(-1)<cr>', desc = ""},
+        ["<A-h>"] = {'<cmd>:MoveHChar(-1)<cr>', desc = ""},
+        ["<A-l>"] = {'<cmd>:MoveHChar(1)<cr>', desc = ""},
+        ["<leader>Wf"] = {'<cmd>:MoveWord(1)<cr>', desc = "MoveWord +1"},
+        ["<leader>Wb"] = {'<cmd>:MoveWord(-1)<cr>', desc = "MoveWord -1"}
+    },
+    v = {
+        ["<A-j>"] = {'<cmd>:MoveBlock(1)<cr>', desc = ""},
+        ["<A-k>"] = {'<cmd>:MoveBlock(-1)<cr>', desc = ""},
+        ["<A-h>"] = {'<cmd>:MoveHBlock(-1)<cr>', desc = ""},
+        ["<A-l>"] = {'<cmd>:MoveHBlock(1)<cr>', desc = ""}
     }
 }
