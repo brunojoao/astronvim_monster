@@ -11,7 +11,6 @@
       },
       {
         "language": [
-          "blade",
           "phtml",
           "edge",
           "html",
@@ -113,35 +112,30 @@
       },
       {
         "language": [
-          "blade",
           "php"
         ],
         "path": "./laravel/collective_form_html.json"
       },
       {
         "language": [
-          "blade",
           "php"
         ],
         "path": "./blade/blade.json"
       },
       {
         "language": [
-          "blade",
           "php"
         ],
         "path": "./blade/helpers.json"
       },
       {
         "language": [
-          "blade",
           "php"
         ],
         "path": "./blade/livewire.json"
       },
       {
         "language": [
-          "blade",
           "php"
         ],
         "path": "./blade/snippets.json"
