@@ -1,7 +1,6 @@
 return {
   "nvim-telescope/telescope.nvim",
   lazy = false,
-  opt = true,
   config = function()
     local telescope = require "telescope"
     telescope.setup {
