@@ -23,5 +23,6 @@ return {
     ["<leader>mD"] = { "<cmd>:delmarks!<cr>", desc = "Remove All marks" },
     ["<leader>ml"] = { "<cmd>:marks<cr>", desc = "List marks" },
     ["<leader>H"] = { "<cmd>:checkhealth<cr>", desc = "Health" },
+    ["<leader>L"] = { "<cmd>:IBLToggle<cr>", desc = "IBLToggle" },
   },
 }
