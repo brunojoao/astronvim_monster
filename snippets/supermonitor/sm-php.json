@@ -36,5 +36,12 @@
       "\\$${1:'name'}Service = \\$this->getServiceLocator()->get(SMService${2:'name'}::class);"
     ],
     "description": "Supermonitor getService"
+  },
+  "menu_item": {
+    "prefix": ["sm_menu_item"],
+    "body": [
+      "MenuItemFactory::create(\\"${1='label'}\\")->setArgAction(\\"${2='argAction'}\\")->setRoutePath(\\"${3='routePath'}\\", [${4='routeArgs'}])"
+    ],
+    "description": "Supermonitor getService"
   }
 }
