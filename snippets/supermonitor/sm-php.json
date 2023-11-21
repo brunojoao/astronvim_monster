@@ -40,7 +40,7 @@
   "menu_item": {
     "prefix": ["sm_menu_item"],
     "body": [
-      "MenuItemFactory::create(\\"${1='label'}\\")->setArgAction(\\"${2='argAction'}\\")->setRoutePath(\\"${3='routePath'}\\", [${4='routeArgs'}])"
+      "MenuItemFactory::create(\"${1:label}\")->setArgAction(\"${2:argAction}\")->setRoutePath(\"${3:routePath}\", [\"page\"=>\"1\"])"
     ],
     "description": "Supermonitor getService"
   }
