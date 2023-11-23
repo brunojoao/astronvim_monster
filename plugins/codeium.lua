@@ -1,7 +1,7 @@
 return {
     {
         "Exafunction/codeium.nvim",
-        lazy = false,
+        lazy = true,
         dependencies = {"nvim-lua/plenary.nvim", "hrsh7th/nvim-cmp"},
         config = function()
             local lspkind = require("lspkind")
