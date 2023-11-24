@@ -1,3 +1,3 @@
 return {
-  { "echasnovski/mini.nvim", lazy = false, version = false },
+  { "echasnovski/mini.nvim", lazy = false, version = "*" },
 }
