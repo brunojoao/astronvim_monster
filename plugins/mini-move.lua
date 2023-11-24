@@ -18,6 +18,10 @@ return {
         line_down = "<M-down>",
         line_up = "<M-up>",
       },
+      options = {
+        -- Automatically reindent selection during linewise vertical move
+        reindent_linewise = true,
+      },
     }
   end,
 }
