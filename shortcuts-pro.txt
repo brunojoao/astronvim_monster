@@ -1,0 +1,5 @@
+VISUAL
+---------------
+v - select
+ve - select end of word
+https://stackoverflow.com/questions/12488348/move-to-end-of-the-current-word-in-vim
