@@ -98,14 +98,6 @@ return {
         { name = "buffer", priority = 500 },
         { name = "path", priority = 250 },
       },
-      formatting = {
-        format = require("lspkind").cmp_format {
-          mode = "symbol",
-          maxwidth = 50,
-          ellipsis_char = "...",
-          symbol_map = { Codeium = "" },
-        },
-      },
     }
   end,
 }
