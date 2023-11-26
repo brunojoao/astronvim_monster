@@ -92,11 +92,14 @@ return {
         end, { "i", "s" }),
       },
       sources = cmp.config.sources {
-        { name = "luasnip", priority = 1250 },
-        { name = "codeium", priority = 1100 },
-        { name = "nvim_lsp", priority = 1000 },
-        { name = "buffer", priority = 500 },
-        { name = "path", priority = 250 },
+        { name = "emmet_vim", priority = 600, option = {
+          filetypes = { "html", "css", "edge" },
+        } },
+        { name = "luasnip", priority = 500 },
+        { name = "codeium", priority = 400 },
+        { name = "nvim_lsp", priority = 300 },
+        { name = "buffer", priority = 200 },
+        { name = "path", priority = 100 },
       },
     }
   end,
