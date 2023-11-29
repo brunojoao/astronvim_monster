@@ -1,0 +1,9 @@
+{
+  "sm_js_storage_module_item": {
+    "prefix": ["sm_js_storage_module_item"],
+    "body": [
+      "storageModuleItem('<?= ${1:SYSTEM}; ?>', ${2:toggle}, ${3:item}, '${4:moduleName}', '${5:subModuleName}');"
+    ],
+    "description": "Supermonitor item storage toggle"
+  }
+}

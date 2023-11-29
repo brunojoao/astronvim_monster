@@ -11,6 +11,13 @@
       },
       {
         "language": [
+          "php",
+          "js"
+        ],
+        "path": "./supermonitor/sm-js.json"
+      },
+      {
+        "language": [
           "phtml",
           "edge",
           "html",

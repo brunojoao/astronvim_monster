@@ -1,6 +1,6 @@
 {
   "action_view_model": {
-    "prefix": ["sm_action_view_model"],
+    "prefix": ["sm_php_action_view_model"],
     "body": [
       "public function $1Action(){",
       "\t\\$request = \\$this->getRequest();",
@@ -12,7 +12,7 @@
     "description": "Supermonitor action return view model"
   },
   "action_view_json": {
-    "prefix": ["sm_action_json_model"],
+    "prefix": ["sm_php_action_json_model"],
     "body": [
       "public function $1Action(){",
       "\t\\$request = \\$this->getRequest();",
@@ -24,21 +24,21 @@
     "description": "Supermonitor action return view json"
   },
   "get_repository": {
-    "prefix": ["sm_get_repository"],
+    "prefix": ["sm_php_get_repository"],
     "body": [
       "\\$${1:name}Repo = \\$this->getEm()->getRepository(\\SM\\Entity${2:Name}::class);"
     ],
     "description": "Supermonitor getRepository"
   },
   "get_service": {
-    "prefix": ["sm_get_service"],
+    "prefix": ["sm_php_get_service"],
     "body": [
       "\\$${1:name}Service = \\$this->getServiceLocator()->get(\\SM\\Service${2:name}::class);"
     ],
     "description": "Supermonitor getService"
   },
   "menu_item": {
-    "prefix": ["sm_menu_item"],
+    "prefix": ["sm_php_menu_item"],
     "body": [
       "MenuItemFactory::create(\"${1:label}\")->setArgAction(\"${2:argAction}\")->setRoutePath(\"${3:routePath}\", [\"page\"=>\"1\"])"
     ],
