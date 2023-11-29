@@ -5,7 +5,6 @@ return {
     dependencies = { "nvim-lua/plenary.nvim", "hrsh7th/nvim-cmp" },
     config = function()
       local lspkind = require "lspkind"
-      local cmp = require "cmp"
       require("codeium").setup {
         formatting = {
           format = lspkind.cmp_format {
