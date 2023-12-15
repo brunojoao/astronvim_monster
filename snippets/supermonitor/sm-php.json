@@ -26,14 +26,14 @@
   "get_repository": {
     "prefix": ["sm_php_get_repository"],
     "body": [
-      "\\$${1:name}Repo = \\$this->getEm()->getRepository(\\SM\\Entity${2:Name}::class);"
+      "\\$${1:name}Repo = \\$this->getEm()->getRepository(\\SM\\${2:Name}::class);"
     ],
     "description": "Supermonitor getRepository"
   },
   "get_service": {
     "prefix": ["sm_php_get_service"],
     "body": [
-      "\\$${1:name}Service = \\$this->getServiceLocator()->get(\\SM\\Service${2:name}::class);"
+      "\\$${1:name}Service = \\$this->getServiceLocator()->get(\\SM\\${2:name}::class);"
     ],
     "description": "Supermonitor getService"
   },
