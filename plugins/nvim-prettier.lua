@@ -18,7 +18,8 @@ return {
                 semi = true,
                 tab_width = 2,
                 trailing_comma = "es5",
-                vue_indent_script_and_style = false
+                vue_indent_script_and_style = false,
+                config_precedence = "prefer-file"
             }
         }
 
