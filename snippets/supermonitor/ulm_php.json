@@ -1,9 +1,9 @@
 {
-  "action_view_model": {
-    "prefix": ["um_controller_view_build"],
+  "controller_view_build": {
+    "prefix": ["ulm_controller_view_build"],
     "body": [
       "\t\\$result = []",
-      "\t\\$title = \"${1:Título}\";",
+      "\t\\$title = \"${1:Titulo}\";",
       "\t\\$menuActive = [''];",
       "\treturn view(\"modules/lembretes/index\", compact(\"title\", \"menuActive\", \"lembretes\"));"
     ],

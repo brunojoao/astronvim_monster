@@ -7,7 +7,7 @@
     "snippets": [
       {
         "language": "php",
-        "path": "./supermonitor/um-php.json"
+        "path": "./supermonitor/ulm-php.json"
       },
       {
         "language": "php",
