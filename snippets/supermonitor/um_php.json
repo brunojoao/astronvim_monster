@@ -1,0 +1,12 @@
+{
+  "action_view_model": {
+    "prefix": ["um_controller_view_build"],
+    "body": [
+      "\t\\$result = []",
+      "\t\\$title = \"${1:Título}\";",
+      "\t\\$menuActive = [''];",
+      "\treturn view(\"modules/lembretes/index\", compact(\"title\", \"menuActive\", \"lembretes\"));"
+    ],
+    "description": "Ultramonitor construtor de view para o controller com pré definições."
+  }
+}
