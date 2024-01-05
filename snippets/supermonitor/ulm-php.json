@@ -4,8 +4,7 @@
     "body": [
       "\t\\$result = []",
       "\t\\$title = \"${1:Titulo}\";",
-      "\t\\$menuActive = [''];",
-      "\treturn view(\"modules/lembretes/index\", compact(\"title\", \"menuActive\", \"result\"));"
+      "\treturn view(\"modules/lembretes/index\", compact(\"title\", \"result\"));"
     ],
     "description": "Ultramonitor construtor de view para o controller com pré definições."
   }
