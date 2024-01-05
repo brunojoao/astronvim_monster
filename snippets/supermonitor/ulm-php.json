@@ -11,7 +11,7 @@
   "flash_message": {
     "prefix": ["ulm_flash_set"],
     "body": [
-        "session()->setFlashdata(['message' => ['${1:success}' => \"${2:message}\"]]);"
+        "flash('${1:success}','${2:message}','message_top');"
     ],
     "description": "Ultramonitor construtor de view para o controller com pré definições."
   }
