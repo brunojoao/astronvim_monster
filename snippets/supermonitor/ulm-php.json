@@ -7,5 +7,12 @@
       "\treturn view(\"modules/lembretes/index\", compact(\"title\", \"result\"));"
     ],
     "description": "Ultramonitor construtor de view para o controller com pré definições."
+  },
+  "flash_message": {
+    "prefix": ["ulm_flash_set"],
+    "body": [
+        "session()->setFlashdata(['message' => ['${1:success}' => \"${2:message}\"]])";
+    ],
+    "description": "Ultramonitor construtor de view para o controller com pré definições."
   }
 }
