@@ -2,7 +2,7 @@
   "controller_view_build": {
     "prefix": ["ulm_controller_view_build"],
     "body": [
-      "\t\\$result = []",
+      "\t\\$result = [];",
       "\t\\$title = \"${1:Titulo}\";",
       "\treturn view(\"modules/lembretes/index\", compact(\"title\", \"result\"));"
     ],
@@ -10,9 +10,7 @@
   },
   "flash_message": {
     "prefix": ["ulm_flash_set"],
-    "body": [
-        "flash(\"${1:success}\",\"${2:message}\",\"message_top\");"
-    ],
+    "body": ["flash(\"${1:success}\",\"${2:message}\",\"message_top\");"],
     "description": "Ultramonitor construtor de view para o controller com pré definições."
   }
 }
