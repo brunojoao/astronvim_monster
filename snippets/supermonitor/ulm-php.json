@@ -14,5 +14,15 @@
         "flash(\"${1:success}\",\"${2:message}\",\"message_top\");"
     ],
     "description": "Ultramonitor construtor de view para o controller com pré definições."
+  },
+  "permission":{
+    "prefix": ["ulm_permission_check"],
+    "body":[
+      "\t\\$atendentesAlloweds = [];",
+      "\t\\$rolesAlloweds = [Role::ADMIN->value];",
+      "\tif (!in_array(userRole(), $rolesAlloweds) && !in_array($usuarioLogado->id_atendente, $atendentesAlloweds)) {",
+      "\t\t\\$this->denied();",
+      "}"
+    ]
   }
 }
