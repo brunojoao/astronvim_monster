@@ -20,7 +20,7 @@
     "body":[
       "\t\\$atendentesAlloweds = [];",
       "\t\\$rolesAlloweds = [Role::ADMIN->value];",
-      "\tif (!in_array(userRole(), $rolesAlloweds) && !in_array($usuarioLogado->id_atendente, $atendentesAlloweds)) {",
+      "\tif (!in_array(userRole(), $rolesAlloweds) && !in_array(user()->id_atendente, $atendentesAlloweds)) {",
       "\t\t\\$this->denied();",
       "}"
     ]
