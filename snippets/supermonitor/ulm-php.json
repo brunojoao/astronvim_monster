@@ -11,7 +11,7 @@
   "flash_message": {
     "prefix": ["ulm_flash_set"],
     "body": [
-        "flash(\"${1:success}\",\"${2:message}\",\"message_top\");"
+        "flash(\"${1:success}\",\"${2:message}\");"
     ],
     "description": "Ultramonitor construtor de view para o controller com pré definições."
   },
@@ -19,7 +19,7 @@
     "prefix": ["ulm_permission_check"],
     "body":[
       "\t\\$rolesAlloweds = [Role::ADMIN->value];",
-      "\tif (!in_array(userRole(), \$rolesAlloweds)) {",
+      "\tif (!in_array(userRole(), \\$rolesAlloweds)) {",
       "\t\t\\$this->denied();",
       "\t}"
     ]
