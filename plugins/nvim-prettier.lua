@@ -57,5 +57,6 @@ return {
                 end
             end
         })
+        require'lspconfig'.tsserver.setup {}
     end
 }
