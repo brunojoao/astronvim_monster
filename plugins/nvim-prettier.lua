@@ -4,7 +4,7 @@ return {
     config = function()
         local prettier = require "prettier"
         prettier.setup {
-            bin = "prettierd", -- or `'prettierd'` (v0.23.3+)
+            bin = "prettier", -- or `'prettierd'` (v0.23.3+)
             filetypes = {
                 "edge", "css", "graphql", "html", "javascript",
                 "javascriptreact", "json", "less", "markdown", "scss",
@@ -57,5 +57,6 @@ return {
                 end
             end
         })
+        require'lspconfig'.tsserver.setup {}
     end
 }
