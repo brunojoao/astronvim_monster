@@ -27,7 +27,7 @@ return {
             -- sign/virttext. Bookmarks can be used to group together positions and quickly move
             -- across multiple buffers. default sign is '!@#$%^&*()' (from 0 to 9), and
             -- default virt_text is "".
-            bookmark_a = {
+            bookmark_0 = {
                 sign = "⚑",
                 virt_text = "hello world",
                 -- explicitly prompt for a virtual line annotation when setting a bookmark from this group.
@@ -38,8 +38,7 @@ return {
                 set_next = "m,",
                 next = "m]",
                 preview = "m:",
-                set_bookmarka = "ma",
-                prev = true -- pass false to disable only this default mapping
+                set_bookmark0 = "ma"
             }
         }
     end
