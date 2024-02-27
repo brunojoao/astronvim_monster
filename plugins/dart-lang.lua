@@ -1,1 +1,1 @@
-return {"dart-lang/dart-vim-plugin", lazy = false}
+return {"dart-lang/dart-vim-plugin", lazy = true}

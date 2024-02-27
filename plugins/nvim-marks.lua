@@ -39,7 +39,7 @@ return {
                 next = "m]",
                 preview = "m:",
                 set_bookmarka = "ma",
-                prev = false -- pass false to disable only this default mapping
+                prev = true -- pass false to disable only this default mapping
             }
         }
     end
