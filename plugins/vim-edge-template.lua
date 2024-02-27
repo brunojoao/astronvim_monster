@@ -1,6 +1,1 @@
-return {
-  {
-    "watzon/vim-edge-template",
-    lazy = false,
-  },
-}
+return {{"watzon/vim-edge-template", lazy = true}}
