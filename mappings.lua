@@ -20,6 +20,10 @@ return {
             desc = ".edge force"
         },
         -- ... outros atalhos ...
+        ["<leader>M"] = {
+            "<cmd>:Telescope bookmarks list<cr>",
+            desc = "Telescope bookmarks"
+        },
         ["<leader>H"] = {"<cmd>:checkhealth<cr>", desc = "Health"},
         ["<leader>L"] = {"<cmd>:IBLToggle<cr>", desc = "IBLToggle"},
         ["<leader>fM"] = {
