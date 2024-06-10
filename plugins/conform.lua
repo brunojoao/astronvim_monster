@@ -1,5 +1,1 @@
-{
-  'stevearc/conform.nvim',
-  lazy = false,
-  opts = {},
-}
+return {'stevearc/conform.nvim', lazy = false, opts = {}}
